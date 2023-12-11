@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Caveat&family=Lato&family=PT+Sans:ital@0;1&family=Pacifico&family=Roboto:wght@500&display=swap');
+
+body {
+    background-color: rgb(127, 255, 174);
+}
+
+.head {
+    text-align: center;
+    margin: 10px;
+}
+
+.play-head {
+    color: rgb(187, 123, 3);
+    font-size: 4rem;
+    font-family: 'Lato', cursive;
+    position: relative; 
+    animation: head;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes head {
+    0% {top: -250px;}
+    100% {top: 30px;}
+}
+
+.ingridients {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    animation: ingridients;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes ingridients {
+    0% {left: -1000px;}
+    85% {left: 50px;}
+    100% {left: 0;}
+}
+
+.ingridients-table {
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.img {
+    width: 20%;
+    padding-bottom: 30px;
+    padding-left: 40%;
+
+}
+
+.instructions {
+    text-align: left;
+    border: 1px solid rgb(181, 91, 91);
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    margin-top: 32px;
+    animation: instructions;
+    animation-duration: 5s;
+}
+
+@keyframes instructions {
+    0% {right: -1000px;}
+    85% {right: 50px;}
+    100% {right: 0;}
+}
+
+.instructions ol {
+    border: 1px solid rgb(16, 150, 247);
+    margin: 0 auto;
+    width: 75%;
+}
+
+.fot {
+    text-align: center;
+}
